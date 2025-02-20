@@ -1,0 +1,154 @@
+.text-center {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #4d79b5;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    
+  }
+.card{
+    border-radius: 5px;
+    border-color: #4d79b5;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+  
+}
+.x-input-label{
+    border-color: #4d79b5 !important;
+}
+/* General profile page styles */
+.profile-container {
+    background-color: #f9f9f9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.profile-header {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+}
+
+.profile-section {
+    margin-bottom: 30px;
+}
+
+.section-header {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.section-description {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.profile-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.status-message {
+    color: #28a745;
+    font-size: 0.9rem;
+}
+
+.modal-content {
+    border-radius: 8px;
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+}
+
+.modal-body {
+    font-size: 1rem;
+}
+
+.modal-footer {
+    padding: 15px;
+}
+/* Override Bootstrap navbar styles for a clean, modern look */
+.navbar {
+    background-color: #ffffff !important;
+}
+
+.navbar .nav-link {
+    color: #333;
+}
+
+.navbar .nav-link:hover {
+    color: #007bff;
+    background-color: #f8f9fa;
+}
+
+/* Dropdown menu adjustments */
+.dropdown-item {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+/* Hamburger menu adjustments */
+button.navbar-toggler {
+    border-color: #ccc;
+}
+
+button.navbar-toggler-icon {
+    background-color: #333;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode .navbar {
+    background-color: #444;
+}
+
+body.dark-mode .nav-link {
+    color: #ccc;
+}
+
+body.dark-mode .nav-link:hover {
+    color: #fff;
+    background-color: #555;
+}
+
+body.dark-mode .dropdown-item {
+    color: #ccc;
+    background-color: #555;
+}
+
+body.dark-mode .dropdown-item:hover {
+    color: #fff;
+    background-color: #666;
+}
